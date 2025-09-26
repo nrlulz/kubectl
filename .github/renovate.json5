@@ -3,6 +3,7 @@
     "extends": [
         "config:recommended",
         ":automergeBranch",
+        ":automergeStableNonMajor",
         ":configMigration",
         ":disableRateLimiting",
         ":skipStatusChecks",
